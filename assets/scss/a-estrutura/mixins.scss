@@ -1,0 +1,51 @@
+// IMAGES
+@mixin image-config-default{
+    max-width:  $img-max-width;
+    height: $img-height;
+    margin: $img-margin;
+    display: $img-display;
+    object-fit: $img-object-fit;
+    
+}
+
+
+@mixin line-after{
+    content: '';
+    width: 0;
+    height: 0.4rem;
+    margin-top: 0;
+    display: block;
+    background-color: #ed1c24;
+    transition: all .3s;
+}
+
+@mixin btn-default {
+    position: relative;
+    padding: 1.6rem 2.1rem;
+    top: 1.7rem;
+    width: auto;
+    max-width: 100%;
+    font-size: 2rem;
+    font-family: "Oswald-Ligth", Arial, Helvetica, sans-serif;
+    border: 1px solid transparent;
+    border-radius: .8rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #ec1f27;
+    transition: .3s all;
+
+    &:hover{
+        border: 1px solid #ec1f27;
+        background-color: #ffffff;
+        color: #ec1f27;
+    }
+}
+
+
+@mixin title_default {
+    padding: 4.4rem 0 3rem;
+    font-size: 3rem;
+    font-family: "Oswald-Ligth", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #ec1f27;
+}

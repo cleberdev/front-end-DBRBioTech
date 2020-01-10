@@ -1,0 +1,55 @@
+/* *******************************/
+/*          CONTATO E MAPA       */
+/* *******************************/
+.fdez-mapa.page-home{
+    padding: 4.3rem 0;
+    .box-endeco{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3rem;
+        height: 100%;
+
+        figure{
+             margin: 0 -2.3rem 1rem;
+            img{
+                margin: 0;
+            }
+        }
+        p:not(:first-child),
+        address p{
+            margin: 0;
+            font-size: 1.4rem;
+            font-family: "Roboto-Cond-Bold", Arial, Helvetica, sans-serif; 
+            color: #000000;
+            text-indent: -1.1rem;
+
+            .fa, .fas {
+                margin-right: 1.2rem;
+                color: #ec1f27;
+            }
+        }
+    }
+   
+   
+    .btn-social{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .fa-2x{
+            color: #ec1f27;
+        }
+
+        .box-content-social {
+            display: flex;
+            justify-content: flex-end;
+
+            i.fab.fa-instagram.fa-stack-1x.xfa-inverse {
+                left: 3.2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,155 @@
+@media (max-width: 767px) {
+    
+    .box-btn a.btn-geral {
+        margin: 0 auto;
+    }
+
+    .fdez-parceiros.page-home .box-destaques, .fdez-parceiros.page-home .box-nao-destaques {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar-light .navbar-nav {
+        padding: 3rem 0 0;
+        text-align: right;
+        transition: .4s all;
+    }
+
+
+    button.navbar-toggler {
+        width: 5rem;
+        height: 4.1rem;
+    }
+
+    div#navbarSupportedContent {
+        transition: .4s all;
+    }
+    .fdez-banner.page-home .titulo {
+        text-align: center;
+    }
+
+    .fdez-banner.page-home .subtitulo {
+        text-align: center;
+        line-height: 1;
+        font-size: 4rem;
+    }
+
+  
+
+    .fdez-sobre.page-home {
+        padding: 1.5rem 0 17rem;
+    }
+
+    .fdez-sobre.page-home .box-titulo * {
+        text-align: center;
+        padding: 4.4rem 0 3rem;
+    }
+
+
+    .fdez-sobre.page-home .box-text p {
+        text-align: center;
+        padding: 0 2rem 0rem;
+    }
+
+
+    .fdez-nossos-produtos.page-home .box-titulo * {
+        padding: 4.7rem 0 1.3rem;
+    }
+
+
+    .fdez-nossos-produtos.page-home .box-itens {
+        padding: 2.6rem 1rem 1.1rem;
+        width: 33.4rem;
+    }
+
+
+    .fdez-parceiros.page-home .box-titulo * {
+        padding: 4.4rem 0 4.3rem;
+    }
+
+    .fdez-parceiros.page-home .box-itens figure img {
+        width: 14rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fdez-parceiros.page-home .linha {
+        margin: 1.8rem 0;
+    }
+    
+
+    .fdez-eventos.page-home {
+        background-image: linear-gradient(180deg, #e5e5e5 23%, #c5c1c1 31%);
+    }
+
+    .fdez-eventos.page-home .box-card {
+        background-color: #fff;
+        margin-bottom: 2.5rem;
+    }
+
+    .fdez-eventos.page-home .box-btn {
+        padding: 1rem 0 6rem;
+    }
+
+    .fdez-newsletter.page-home .box-card {
+        background-color: #fff;
+        margin-bottom: 2.5rem;
+    }
+
+
+    .fdez-newsletter.page-home .box-btn {
+        padding: 0rem 0 6rem;
+    }
+
+    .fdez-form-1.page-home .box-titulo {
+        margin-bottom: 2rem;
+    }
+    
+    .fdez-form-1.page-home {
+        padding: 16.6rem 0;
+    }
+    .fdez-form-1.page-home .box-btn .btn-geral {
+        margin: 2rem auto;
+    }
+
+
+    .fdez-mapa.page-home .box-endeco figure img {
+        margin: 0 auto;
+    }
+
+
+    .fdez-mapa.page-home .box-endeco {
+        text-align: center;
+    }
+
+    .fdez-mapa.page-home .box-endeco figure {
+        margin: 0 -2.3rem 3rem;
+    }
+
+    address {
+        margin-bottom: 3rem;
+    }
+
+    .fdez-mapa.page-home .btn-social {
+        justify-content: center;
+    }
+
+    .fdez-mapa.page-home {
+        padding: 4.3rem 0 0rem;
+    }    
+
+
+    footer .fdez-footer-end {
+        text-align: center;
+    }
+
+    .error .clip .shadow {height: 10rem;}
+    .error .clip:nth-of-type(2) .shadow {width: 8rem;}
+    .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow {width: 10rem;}
+    .error .digit {width: 8rem; height: 8rem; line-height: 8rem; font-size: 5.2rem;}
+    .error h2 {font-size: 2.4rem;}
+    .error .msg {top: -11rem; left: 15%; width: 4rem; height: 4rem; line-height: 4rem; font-size: 1.8rem;}
+    .error span.triangle {top: 70%; right: -3%; border-left: 1rem solid #535353; border-top: .8rem solid transparent; border-bottom: .8rem solid transparent;}
+    .error .container-error-404 {height: 15rem;}
+}

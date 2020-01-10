@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*=============================
+RESET / FONT-FACE
+=============================*/
+@font-face {
+    font-family: 'Roboto-Cond-Light';
+    src: url('../fonts/RobotoCondensed-Light.woff2') format('woff2'),
+        url('../fonts/RobotoCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Cond-Bold';
+    src: url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/RobotoCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Cond-Regular';
+    src: url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/RobotoCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+        url('../fonts/Oswald-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+        url('../fonts/Oswald-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald-Ligth';
+    src: url('../fonts/Oswald-Light.woff2') format('woff2'),
+        url('../fonts/Oswald-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+        url('../fonts/Oswald-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('../fonts/WorkSans-Regular.woff2') format('woff2'),
+        url('../fonts/WorkSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Light';
+    src: url('../fonts/WorkSans-Light.woff2') format('woff2'),
+        url('../fonts/WorkSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('../fonts/WorkSans-Bold.woff2') format('woff2'),
+        url('../fonts/WorkSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+

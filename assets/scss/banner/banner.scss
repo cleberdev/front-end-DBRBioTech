@@ -1,0 +1,71 @@
+/*=============================
+BANNER
+=============================*/
+.fdez-banner.page-home{
+  
+  figure {
+     margin: 0;
+
+     figcaption {
+      position: absolute;
+      bottom: 15rem;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      text-align: left;
+    }
+
+   }
+
+   img {
+    width: 100%;
+    height: 46rem;
+    margin: 0 auto;
+    display: block;
+  }
+
+
+  .titulo {
+    line-height: 4rem;
+    font-size: 3.2rem;
+    font-family: "Oswald-Ligth", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .subtitulo {
+    font-size: 4.3rem;
+    font-family: "Oswald-Bold", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+
+}
+ 
+  
+  .fa-chevron-right, .fa-chevron-left {
+    position: absolute;
+    top: 20rem;
+    right: 1.5rem;
+    z-index: 10;
+    width: 2.7rem;
+    height: 4.4rem;
+    font-size: 4rem;
+    cursor: pointer;
+    background-size: 2.7rem 4.4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .fa-chevron-right {
+    right: 0.8rem;
+    left: auto;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .fa-chevron-left {
+    left: 0.8rem;
+    right: auto;
+    color: rgba(255, 255, 255, 0.8);
+  }

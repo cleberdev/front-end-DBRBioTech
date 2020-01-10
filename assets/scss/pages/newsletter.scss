@@ -1,0 +1,77 @@
+/* *******************************/
+/*         NEWSLETTER      */
+/* *******************************/
+.fdez-newsletter.page-home{
+    background-image: linear-gradient(180deg, #e5e5e5 25%, #e5e5e5 25%);
+
+    .box-titulo * {
+        @include title_default;
+        text-align: center;
+    }
+
+    .box-card{
+        position: relative;
+        border: 1px solid #cccccc94;
+        background-color: #fff;
+        figure{
+            img{
+                width: 100%;
+            }
+        }
+
+        .box-body{
+            padding: 0 2.6rem;
+            height: 26.7rem; // ?
+            span{
+                padding-top: 3rem;
+                font-size: 1.2rem;
+                font-family: "Roboto-Cond-Regular", Arial, Helvetica, sans-serif;
+                text-transform: uppercase;
+                color: #ec1f27; 
+            }
+
+            h3{
+                padding: 1.5rem 0;
+                font-size: 2.4rem;
+                font-family: "Roboto-Cond-Bold", Arial, Helvetica, sans-serif;
+                color: #ec1f27;
+            }
+
+            p{
+                font-size: 1.5rem;
+                font-family: "WorkSans-Regular", Arial, Helvetica, sans-serif;
+                color: #4f4f4f;
+                line-height: 1.6;
+            }
+        }
+
+        .box-footer-card{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            width: 84%;
+            height: 7.4rem;
+            left: 2.6rem;
+            bottom: 0;
+            border-top: 1px solid #ccc;
+            a{
+                color: #ec1f27;
+             }
+
+             .fa, .fas {
+                 position: absolute;
+                 right: 0;
+            }
+
+        }
+    }
+
+
+    .box-btn {
+        padding: 6rem 0;
+       justify-content: center;
+       .btn-geral{
+           width: 25rem;
+       }
+    }
+}

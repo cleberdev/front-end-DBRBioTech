@@ -1,0 +1,39 @@
+/*=============================
+MEDIA QUERIES
+=============================*/
+@media (max-width: 767px) {
+    .fdez-banner img {
+        height: 30rem;
+    }
+    .error .clip .shadow {height: 10rem;}
+    .error .clip:nth-of-type(2) .shadow {width: 8rem;}
+    .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow {width: 10rem;}
+    .error .digit {width: 8rem; height: 8rem; line-height: 8rem; font-size: 5.2rem;}
+    .error h2 {font-size: 2.4rem;}
+    .error .msg {top: -11rem; left: 15%; width: 4rem; height: 4rem; line-height: 4rem; font-size: 1.8rem;}
+    .error span.triangle {top: 70%; right: -3%; border-left: 1rem solid #535353; border-top: .8rem solid transparent; border-bottom: .8rem solid transparent;}
+    .error .container-error-404 {height: 15rem;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (max-width: 991px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    nav.navbar.navbar-expand-md.navbar-light {
+        width: 100%;
+    }
+    ul.navbar-nav.mr-auto {
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {
+    .navbar-expand-md .navbar-collapse {
+        display: inline-block!important;
+    }
+    
+}

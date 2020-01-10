@@ -1,0 +1,48 @@
+/* *******************************/
+/* FORMULÁRIO DE ENVIO DE E-MAIL */
+/* *******************************/
+.fdez-form-1.page-home{
+    padding: 14.6rem 0;
+    background: url( ../img/midia/img-bgFormSolicitar.jpg )no-repeat center;background-size: cover;height: 22rem;text-align: center;
+    display: flex;
+    align-items: center;
+
+    .box-titulo{
+        margin-top: .3rem;
+        
+        * {
+            @include title_default;
+            padding: 0;
+            font-size: 3.8rem;
+            font-family: "Oswald-Ligth", Arial, Helvetica, sans-serif;
+            color: #ffffff;
+        }
+    } 
+
+    input[type=text]{
+        padding: 2.5rem;
+        font-size: 2rem;
+        font-family: "Oswald-Ligth", Arial, Helvetica, sans-serif;
+        border: 2px solid #ffffff;
+        border-radius: .8rem;
+        color: #ffffff;
+        background-color: transparent;
+
+        &::placeholder{
+            font-size: 2rem;
+            font-family: "Oswald-Ligth", Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+
+    .box-btn{
+        .btn-geral{
+            @include btn-default;
+            padding: 1.4rem 5.6rem;
+            top: 0;
+            cursor: pointer;
+        }
+    }
+
+}

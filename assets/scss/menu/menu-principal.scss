@@ -1,0 +1,65 @@
+/*=============================
+MENU PRINCIPAL
+=============================*/
+header#topo {
+    position: $menu-postion;
+    width: $menu-width;
+    z-index: $menu-z-index;
+
+    
+}
+
+nav.navbar.navbar-expand-md.navbar-light {
+    width: $menu-width;
+    padding: $menu-navbar-light-padding;
+    
+}
+
+
+.navbar-light{
+    .navbar-nav{
+        display: flex;
+        justify-content: flex-end;
+    
+        .nav-link {
+            padding: 0 0.8rem;
+            color: $menu-color-active;
+            font-size: $menu-font-size;
+            font-family: $menu-font-family;
+            text-transform: uppercase;
+            transition: all .3s;
+        
+            &:hover{ 
+                color: $color-hover-default;
+            }
+        
+            &:after{
+                @include line-after;
+            }
+        }
+
+        .nav-item {
+          margin-left: 1.3rem;
+        }
+        
+    }
+} 
+
+
+
+.navbar-light .navbar-nav .nav-link:hover::after { 
+    width:  $menu-width;
+}
+.navbar-light .navbar-nav .nav-ativo {
+    color: $menu-color-active;
+}
+.navbar-brand {
+    margin-right: 4.5rem;
+}
+
+.btn-social i.fas.fa-circle.fa-stack-2x {
+    color: #001f3f;
+}
+.btn-social .fa-1x {
+    font-size: $menu-font-size;
+}

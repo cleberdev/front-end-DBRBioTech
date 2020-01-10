@@ -1,0 +1,43 @@
+/*=============================
+GERAL
+=============================*/
+.form-control {
+    height: calc(3.6rem + 2px);
+}
+.form-control, .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: $font-size-elements-form-default;
+    border-radius: 0.4rem;
+}
+
+
+.box-btn{
+  display: flex;
+  text-align: center;
+  
+    a.btn-geral{
+      @include btn-default;
+    }
+  }
+
+  .term_bold{
+    font-family: "Oswald-Bold", Arial, Helvetica, sans-serif !important; 
+  }
+
+  .swiper-pagination-bullet {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: .2;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #ffffff;
+    height: 2rem;
+    width: 2rem;
+}
+
+
